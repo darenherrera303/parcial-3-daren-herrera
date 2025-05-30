@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Interfaz de DJ Interactiva - DJ3DS</title>
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.98/build/spline-viewer.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0e0e0e;
+      color: #f1f1f1;
+    }
+
+    header {
+      background-color: #1b1b1b;
+      text-align: center;
+      padding: 3rem 1rem;
+      border-bottom: 3px solid #ff0066;
+    }
+
+    .logo {
+      width: 120px;
+      margin-bottom: 1rem;
+      border-radius: 12px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-top: 1rem;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #ff0066;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #ddd;
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+
+    .image-grid img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      border: 2px solid #333;
+      object-fit: cover;
+    }
+
+    spline-viewer {
+      width: 100%;
+      height: 500px;
+      margin-top: 2rem;
+      border-radius: 12px;
+      border: 2px solid #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #111;
+      color: #777;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo-dj3ds.png" alt="Logo DJ3DS" class="logo">
+    <h1>la revolucion DJ solo con DJ3DS</h1>
+    <p>Explora una experiencia visual en 3D de un espacio tridimensional musical moderno.</p>
+  </header>
+
+  <section>
+    <h2>¿Qué es  DJ3DS?</h2>
+    <p>
+      Una interfaz de DJ es una herramienta que permite mezclar pistas de audio, aplicar efectos en tiempo real y sincronizar el ritmo entre canciones. Los DJs utilizan controladores, software especializado y elementos visuales para crear sets únicos.
+    </p>
+
+    <div class="image-grid">
+      <img src="controlador.jpg" alt="Controlador DJ">
+      <img src="software-dj.jpg" alt="Software DJ">
+      <img src="dj-en-vivo.jpg" alt="DJ en vivo">
+    </div>
+
+    <h2>Modelo interactivo 3D</h2>
+    <p>
+      A continuación, puedes interactuar con un modelo en 3D que representa un espacio de DJ virtual, visualizada con la herramienta Spline.
+    </p>
+
+    <!-- Sustituye esta URL por una escena válida de Spline -->
+    <spline-viewer url="https://prod.spline.design/UQ0gXRoUrnqGhWnz/scene.splinecode"></spline-viewer>
+  </section>
+
+  <footer>
+    &copy; 2025 DJ3DS | siente el poder del DJ
+  </footer>
+
+</body>
+</html>
+
